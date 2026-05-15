@@ -1,0 +1,17 @@
+[package]
+name = "picdash"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.92"
+
+[dependencies]
+eframe = "0.34"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp", "gif", "bmp", "tiff"] }
+clap = { version = "4", features = ["derive"] }
+crossbeam-channel = "0.5"
+anyhow = "1"
+rayon = "1"
+memmap2 = "0.9"
+zune-jpeg = "0.5"
+zune-core = "0.5"
+zune-png = "0.5"
