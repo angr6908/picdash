@@ -2491,7 +2491,6 @@ dependencies = [
  "crossbeam-channel",
  "eframe",
  "image",
- "memmap2",
  "rayon",
  "zune-core",
  "zune-jpeg",
